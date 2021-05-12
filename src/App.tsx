@@ -1,10 +1,10 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent} from 'react';
+import PokemonList from './pages/pokemon-list';
 
 const App: FunctionComponent = () => {
-    const [name, setName] = useState<String>('React');
 
     return (
-        <h1>Yo, {name} !</h1>
+        <PokemonList />
     )
 }
 
