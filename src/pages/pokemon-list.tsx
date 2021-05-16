@@ -1,16 +1,13 @@
 import React, { FunctionComponent, useState, useEffect } from 'react';
 import Pokemon from '../models/pokemon';
 import PokemonCard from '../components/pokemon-card';
+import PokemonService from '../services/pokemon-service';
   
 const PokemonList: FunctionComponent = () => {
   const [pokemons, setPokemons] = useState<Pokemon[]>([]);
   
   useEffect(() => {
-    fetch('http://localhost:3001/pokemons')
-    .then(response => response.json())
-    .then((pokemons) => {
-      setPokemons(pokemons)
-    });
+    PokemonService.getPokemons().then(pokemons => setPokemons(pokemons));
   }, []);
   
   return (
