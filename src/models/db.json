@@ -2,7 +2,7 @@
   "pokemons": [
     {
       "id": 1,
-      "name": "Bulb",
+      "name": "Bulbizarre",
       "hp": 25,
       "cp": 5,
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
@@ -82,16 +82,6 @@
       "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/023.png",
       "types": [
         "Poison"
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Pikachu",
-      "hp": 21,
-      "cp": 7,
-      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/025.png",
-      "types": [
-        "Electrik"
       ]
     },
     {
