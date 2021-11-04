@@ -113,6 +113,19 @@
       "types": [
         "Feu"
       ]
+    },
+    {
+      "id": 1621440711470,
+      "hp": 100,
+      "cp": 10,
+      "name": "Plantao",
+      "picture": "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/182.png",
+      "types": [
+        "Normal",
+        "Eau",
+        "Plante"
+      ],
+      "created": "2021-05-19T16:11:51.470Z"
     }
   ]
 }
