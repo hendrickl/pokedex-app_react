@@ -1,6 +1,6 @@
 # Pokedex-app ![Pokedex icon](./pokedex-icon.png)
 
-[Pokedex](https://pokemons-world.web.app/login "Pokedex web application") is an **web application built with React**.<br>
+[Pokedex](https://pokemons-world.web.app/login "Pokedex web application") is a **web application built with React**.<br>
 In this project I use technologies as HTML5, CSS3, JS ES6, TS, NodeJS, React, React-router, JSON-Server...<br>
 Pokedex is deployed with Firebase Google solution.
 
